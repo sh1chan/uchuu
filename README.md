@@ -12,7 +12,20 @@ Request		>	+------------+
 Response	<	+------------+
 ```
 
+#### Start
+
+```bash
+$ python3 run.py
+$ nc localhost 8888
+
+> Hello
+```
+
 #### TODO
-- [ ] register pages
-- [ ] register groups
-- [ ] register model
+- [ ] Database Access
+	- [x] Server
+	- [ ] I/O (CLI)
+- [ ] Database Structure
+	- [ ] Pages
+	- [ ] Model Groups
+	- [ ] Models
